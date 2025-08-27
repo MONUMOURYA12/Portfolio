@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Monu Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <h1>Hi, I'm <span>Monu Pratap Mourya</span></h1>
+        <p class="typing-text"></p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+      <div class="hero-right">
+        <img src="monu photo.png" alt="My Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <p>
+        I'm a passionate developer skilled in MERN Stack, with experience in building 
+        responsive web applications. Currently pursuing B.Tech in Electronics Engineering. 
+        I love solving problems and learning new technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">Node.js</div>
+      <div class="skill-card">MongoDB</div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="math solvr.jpeg" alt="Project 1">
+        <h3>Virtual Mathsolver  Website</h3>
+        <p>Solve the maths qustion using the help of api.</p>
+      </div>
+      <div class="project-card">
+        <img src="project ecommerce.jpg" alt="Project 2">
+        <h3>E-Commerce App</h3>
+        <p>A MERN stack based e-commerce application with cart & payment.</p>
+      </div>
+      <div class="project-card">
+        <img src="wheather app.jpg" alt="Project 3">
+        <h3>Weather App</h3>
+        <p>Weather forecast web app using API integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 Monu Pratap Mourya | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
